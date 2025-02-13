@@ -1,4 +1,20 @@
 body {
-background-color: 96cbc5;
-color:black
+  background-color:#a2bab5;
+  color:black;
+  text-align:left;
+  font-family: Roboto;
+  margin-left: 10%;
+  margin-right:10%;
+}
+
+.heading{
+  font-family:Bebas+Neue, cursive;
+  text-align: center;
+  font-size: 300%;
+  color: black;
+  text-shadow:#a2bab5 4px 4px;
+}
+
+h2.heading{
+  font-size:200% ;
 }

@@ -12,6 +12,8 @@ body {
   left: 0px;
   position: fixed;
   z-index: -999;
+  width: 100vw;
+  height: 100vh;
 }
 
 .heading{
@@ -33,7 +35,7 @@ h2.heading{
   padding: 5px;
   border-radius: 9px;
   margin: 5px;
-  background-color: #d6dbec;
+  background-color: rgba(214,219,236,0.4);
   color: #55555
 }
 

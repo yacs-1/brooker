@@ -7,6 +7,13 @@ body {
   margin-right:10%;
 }
 
+#bg {
+  top:0px;
+  left:0px;
+  z-index:-999;
+  position:fixed;
+}
+
 .heading{
   font-family:Bebas+Neue, cursive;
   text-align: center;

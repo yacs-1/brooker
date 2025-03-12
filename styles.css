@@ -42,11 +42,11 @@ h2.heading{
 a {
   text-decoration:none;
   font-weight: 700;
-  color: #4f93c0;
+  color: #117a0a;
 }
 
 a:hover {
-  color: #4166de;
+  color: #1abc0f;
 }
 hr {
   height: 2px;

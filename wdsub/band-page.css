@@ -1,5 +1,6 @@
 body {
   margin:0px;
+  background-color:#808080;
 }
 
 #content, #album, #info {
@@ -7,18 +8,15 @@ body {
 }
 
 #content {
-  border: solid 2px red;
   width:50%;
 }
 
 #album {
-  border:solid 2px blue;
   width:30%;
 }
 
 #info {
-  border:solid 2px green;
-  max-width: 19%;
+  max-width: 18%;
 }
 
 #player button {
@@ -34,5 +32,33 @@ body {
 }
 
 #banner{
-  max-width:100vw;
+  width:100%;
+  height:auto;
+}
+
+#tracklist {
+  list-style-type: none;
+}
+
+.track-li {
+  font-size: 125%;
+  font-style: italic;
+}
+
+.track-player::-webkit-media-controls-panel {
+  background-color:rgba(128, 128, 128,1);
+}
+
+.track-player {
+  height: 2m;
+}
+
+#album-cover {
+  width: 100%;
+  height: 100%;
+}
+
+#info img{
+  max-width: 95%;
+  margin: auto;
 }

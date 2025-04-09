@@ -62,3 +62,8 @@ body {
   max-width: 95%;
   margin: auto;
 }
+
+a {
+  color:#9bb6ff;
+  text-decoration:none;
+}

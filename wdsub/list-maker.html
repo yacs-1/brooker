@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    List Maker
+  </title>
+  <link rel="stylesheet" src="list-maker.css">
+</head>
+<body>
+  <h1 style="text-align:center">List Maker</h1>
+  <br>
+<div style="text-align:center" id="input-grp">
+<label for="new-item">New Item:</label>
+<input id="new-item">
+<button onclick="addNewItem()">ADD ITEM</button>
+<button onclick="clearList()">CLEAR ALL</button>
+</div>
+
+<div id="list-grp">
+  <ul id="to-do">
+  </ul>
+</div>
+  
+  <div id="footer">
+    <p>Return to <a href="/brooker/index.html">home</a></p>
+  </div>
+
+  <script src="list-maker.js"></script>
+</body>
+</html>

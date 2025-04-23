@@ -65,7 +65,7 @@ hr {
   justify-content: center;
   list-style-type:none;
   position:relative;
-  background-color:white;
+  background-color:none;
 }
 
 #nav-list > li {
@@ -76,12 +76,12 @@ hr {
 
 #nav-list ul {
   display:none;
-  background-color:white;
+  background-color:none;
 }
 
 nav-list li:hover {
-  background-color:gray;
-  color:gray;
+  background-color:none;
+  color:none;
 }
 
 #nav-list li:hover ul {

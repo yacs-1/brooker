@@ -1,3 +1,4 @@
+
 body {
   background-color:#a2bab5;
   color:black;
@@ -57,4 +58,38 @@ hr {
 #footer {
   font-size: 120%;
   text-align: center;
+}
+
+#nav-list {
+  display:flex;
+  justify-content: center;
+  list-style-type:none;
+  position:relative;
+  background-color:white;
+}
+
+#nav-list > li {
+  flex-grow:1;
+  width: 15%;
+  display:block;
+}
+
+#nav-list ul {
+  display:none;
+  background-color:white;
+}
+
+nav-list li:hover {
+  background-color:gray;
+  color:gray;
+}
+
+#nav-list li:hover ul {
+  display:block;
+}
+
+#nav-list li ul {
+  list-style-type:none;
+  padding:0px;
+  position:absolute;
 }

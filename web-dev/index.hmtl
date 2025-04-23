@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -17,7 +16,7 @@
     </div>
     <div id="global-header">
       <ul id="nav-list">
-        <li><a>Home</a></li>
+        <li><a href="/brooker" >Home</a></li>
         <li><a>Personal Info</a></a>
           <ul>
             <li><a>Contact info</a></li>
@@ -39,16 +38,16 @@
             <li><a>Sports</a></li>
           </ul>
         </li>
-        <li><a>WEB DEV</a>
+        <li><a href="brooker/web-dev">WEB DEV</a>
           <ul>
-            <li><a>WEEK 1 SUBMISSION</a></li>
-            <li><a>WEEK 2 SUBMISSION</a></li>
-            <li><a>WEEK 3 SUBMISSION</a></li>
-            <li><a>WEEK 4 SUBMISSION</a></li>
-            <li><a>WEEK 5 SUBMISSION</a></li>
-            <li><a>WEEK 6 SUBMISSION</a></li>
-            <li><a>WEEK 7 SUBMISSION</a></li>
-            <li><a>WEEK 8 SUBMISSION</a></li>
+            <li><a href="/brooker/wdsub/week1.html">WEEK 1 SUBMISSION</a></li>
+            <li><a href="/brooker/wdsub/recipe.html">WEEK 2 SUBMISSION</a></li>
+            <li><a href="/brooker/wdsub/anchors.html">WEEK 3 SUBMISSION</a></li>
+            <li><a href="/brooker/wdsub/poem.html">WEEK 4 SUBMISSION</a></li>
+            <li><a href="/brooker/wdsub/reviews.html">WEEK 5 SUBMISSION</a></li>
+            <li><a href="/brooker/wdsub/journal.html">WEEK 6 SUBMISSION</a></li>
+            <li><a href="/brookerwdsub/band-page.html">WEEK 7 SUBMISSION</a></li>
+            <li><a href="/brooker/wdsub/list-maker.html">WEEK 8 SUBMISSION</a></li>
           </ul>
         </li>
       </ul>
@@ -58,7 +57,7 @@
     <h2> Weekly Webpage Submissions </h2>
     <ol>
       <li>
-        <a href="wdsub/week1.html"><em> week 1 submission</em></a>
+        <a href="/brooker/wdsub/week1.html"><em> week 1 submission</em></a>
         <p>This page demonstrates the use of headings to create a hierarchy of content. The content describes the basic tags for all web pages. Only really strong guys can open this link</p>
       </li>
       <li>
@@ -66,27 +65,27 @@
         <p>This is a recipe (not really) that we used to demonstrate lists. This link is also only openable for jacked fellas such as my currently anonymous self</p>
       </li>
       <li>
-        <a href="wdsub/anchors.html"><em>week 3 submission</em></a>
+        <a href="/brooker/wdsub/anchors.html"><em>week 3 submission</em></a>
         <p> This page demonstrates the use of the global id attribute and a tags to link to those webpages</p>
       </li>
       <li>
-        <a href="wdsub/poem.html"><em>Week 4 submission</em></a>
+        <a href="/brooker/wdsub/poem.html"><em>Week 4 submission</em></a>
           <p>This is a beautiful poem</p>
       </li>
       <li>
-        <a href="wdsub/reviews.html">Week 5 submission</a>
+        <a href="/brooker/wdsub/reviews.html">Week 5 submission</a>
         <p>Ths is a few reviews of popular books I have read</p>
       </li>
       <li>
-        <a href="wdsub/journal.html">Week 6 Submission</a>
+        <a href="/brooker/wdsub/journal.html">Week 6 Submission</a>
         <p>This is an attempt to make an online news article with no information to practice my styling in css</p>
       </li>
       <li>
-        <a href="wdsub/band-page.html">Week 7 submission</a>
+        <a href="/brookerwdsub/band-page.html">Week 7 submission</a>
         <p>This page is a mockup of a band's album page, where users can listen to tracks from their new album!!!</p>
       </li>
       <li>
-        <a href="wdsub/list-maker.html">Week 8 submission</a>
+        <a href="/brooker/wdsub/list-maker.html">Week 8 submission</a>
         <p>This page is my first attempt of JavaScript where you can make and use a to do list.</p>
       </li>
     </ol>

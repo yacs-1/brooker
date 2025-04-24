@@ -54,7 +54,8 @@
     </div>
     <img id="bg" src="https://github.io/yacs-1/brooker/resource/bg.webp">
     <br>
-    <h2> Weekly Webpage Submissions </h2>
+<div style="background-color:rgba(137, 255, 113, 0.6)>    
+<h2> Weekly Webpage Submissions </h2>
     <ol>
       <li>
         <a href="/brooker/wdsub/week1.html"><em> week 1 submission</em></a>
@@ -89,6 +90,7 @@
         <p>This page is my first attempt of JavaScript where you can make and use a to do list.</p>
       </li>
     </ol>
+</div>
     <h2> Useful resources </h2>
     <ul>
       <li><a href="https://codepen.io/pen/" target="_blank">CodePen</a> is a site where you can practice html, css, javascript before putting it on an official site</li>

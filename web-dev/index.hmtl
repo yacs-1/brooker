@@ -20,7 +20,7 @@
         <li><a>Personal Info</a></a>
           <ul>
             <li><a>Contact info</a></li>
-            <li><a>Dog names</a></li>
+            <li><a>Names</a></li>
             <li><a>Favorite songs</a></li>
           </ul>
         </li>
@@ -38,7 +38,7 @@
             <li><a>Sports</a></li>
           </ul>
         </li>
-        <li><a href="brooker/web-dev">WEB DEV</a>
+        <li><a href="brooker/web-dev">Web Development</a>
           <ul>
             <li><a href="/brooker/wdsub/week1.html">WEEK 1 SUBMISSION</a></li>
             <li><a href="/brooker/wdsub/recipe.html">WEEK 2 SUBMISSION</a></li>

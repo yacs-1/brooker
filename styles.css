@@ -61,27 +61,36 @@ hr {
 }
 
 #nav-list {
+  padding:0px;
   display:flex;
   justify-content: center;
+  align-content:center;
   list-style-type:none;
   position:relative;
-  background-color:none;
+  background-color:#89ff71;
 }
 
 #nav-list > li {
   flex-grow:1;
-  width: 15%;
   display:block;
+  position:relative;
+  text-align:center;
+  margin:auto;
+}
+
+#nav-list li a {
+  display:inline-block;
+  width:100%;
 }
 
 #nav-list ul {
   display:none;
-  background-color:none;
+  background-color:#89ff71;
 }
 
 nav-list li:hover {
-  background-color:none;
-  color:none;
+  background-color:#619557;
+  color:#619557;
 }
 
 #nav-list li:hover ul {
@@ -92,4 +101,5 @@ nav-list li:hover {
   list-style-type:none;
   padding:0px;
   position:absolute;
+  width:100%;
 }

@@ -1,7 +1,7 @@
 
 body {
   background-color:#172454;
-  color:black;
+  color:white;
   text-align:left;
   font-family: Roboto;
   margin-left: 5%;
@@ -68,6 +68,7 @@ hr {
   list-style-type:none;
   position:relative;
   background-color:#213378;
+  color:white;
 }
 
 #nav-list > li {

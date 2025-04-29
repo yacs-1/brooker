@@ -8,15 +8,6 @@ body {
   margin-right:10%;
 }
 
-#bg {
-  top: 0px;
-  left: 0px;
-  position: fixed;
-  z-index: -999;
-  width: 150vw;
-  height: 150vh;
-}
-
 .heading{
   font-family:Bebas+Neue, cursive;
   text-align: center;

@@ -14,7 +14,17 @@
     <div id="gheader"></div>
     <script src="/brooker/global-header.js"></script>
     <div style="color:rgba()">
-      <h1>Tristan's Website's Homepage</h1>
+      <h1>Welcome<span id="userspan"></span>Tristan's Homepage</h1>
     </div>
+    <hr>
+
+    <script>
+      let urlParams = new URLSearcParams(window.location.search);
+      if (urlParams.has("variable1")) {
+        let username = urlParams.get("variable1");
+        let userspan = document.getElementById("userspan");
+        userspan.innerText = ", " + username + ", ";
+      }
+    </script>
   </body>
 </html>

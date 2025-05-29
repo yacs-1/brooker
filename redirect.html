@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>redirecting</title>
+    <script>
+      let urlparams = URLSearchParams(window.location.search);
+      let username = urlparams.get("variable1");
+
+      if(username == "Tbizzle5510") {
+        //redirect to secret page
+        window.location.replace("https://yacs-1.github.io/brooker/secret.html");
+      } else {
+        //redirect to home
+        window.location.replace("https://yacs-1.github.io/brooker/home.html");
+      }
+      
+    </script>
+  </head>
+  <body>
+    <p>redirecting...</p>
+  </body>
+</html>

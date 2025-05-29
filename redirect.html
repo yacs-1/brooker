@@ -4,7 +4,7 @@
     <title>redirecting</title>
     <script>
       debugger;
-      let urlparams = URLSearchParams(window.location.search);
+      let urlparams = new URLSearchParams(window.location.search);
       let username = urlparams.get("variable1");
 
       if(username == "Tbizzle5510") {
